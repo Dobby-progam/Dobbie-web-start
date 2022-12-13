@@ -1,0 +1,5 @@
+baseURL = 'https://test.thijmen.dobbie.tk'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+custom_css = ["static/css/main.css"]
+
