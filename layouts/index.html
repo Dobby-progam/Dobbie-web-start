@@ -1,6 +1,9 @@
 {{define "main"}}
 <h1 id="main"> I am dobbie</h1>
-<p id="main"> As you can see I can progam in HTML css and <i>not</i> javaScript. <br> But I can in python </p>
-{{$image := resources.Get "/images/cube.png"}}
-<img  src="{{  ($image.Resize "200x").RelPermalink }}" width="50%" height="50%">
+<h4 id="main"> As you can see I can progam in HTML css and <i>not</i> javaScript. <br> But I can in python <br></h4>
+<p id="main">I sometiems make youtube video's and I progam stuff</p>
+<div>
+    {{$image := resources.Get "/images/cube.png"}}
+    <img  src="{{  ($image.Resize "200x").RelPermalink }}" width="50%" height="50%">
+</div>
 {{ end }}
